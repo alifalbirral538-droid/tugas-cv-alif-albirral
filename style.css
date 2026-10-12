@@ -99,7 +99,7 @@ button:hover, button:active { background: var(--ink); border-color: var(--ink); 
 .site-footer { display: flex; justify-content: space-between; align-items: center; gap: 1rem; padding: 1.5rem clamp(1.25rem, 5vw, 5rem); background: var(--paper); font-size: .9rem; }
 .site-footer p { margin: 0; }
 .site-footer p span { color: var(--accent); padding: 0 .45rem; }
-.site-footer a { min-height: 44px; display: inline-flex; align-items: center; font-weight: 700; text-underline-offset: 4px; }
+.site-footer a { min-height: 44px; display: inline-flex; align-items: center; font-weight: 700; text-underline-offset: 4px; white-space: nowrap; }
 
 @media (max-width: 900px) {
   .hero { min-height: 0; grid-template-columns: 40% 60%; }
